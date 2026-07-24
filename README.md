@@ -5,7 +5,7 @@ them to a CSV, and sends a Telegram alert when a stock makes a significant
 move. Runs entirely on GitHub Actions every weekday: no server, no hosting
 cost, no manual input.
 
-![Workflow runs](docs/actions-runs.png)
+![Telegram alert](docs/telegram-alert.png)
 
 ## What it does
 
@@ -38,6 +38,8 @@ rather than allowed to break the collection run, since the data matters more
 than the message.
 
 ## Automation
+
+![Workflow runs](docs/actions-runs.png)
 
 The schedule, permissions and commit step live in
 [`.github/workflows/scraper.yml`](.github/workflows/scraper.yml). The job runs
