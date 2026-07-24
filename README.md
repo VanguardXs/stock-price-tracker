@@ -30,8 +30,6 @@ Python · yfinance · GitHub Actions · Telegram Bot API
 
 ## Alerts
 
-![Telegram alert](docs/telegram-alert.png)
-
 Quiet days produce no message. The threshold lives in `ALERT_THRESHOLD` in
 `scraper.py` and defaults to 3%. A failed notification is logged and ignored
 rather than allowed to break the collection run, since the data matters more
