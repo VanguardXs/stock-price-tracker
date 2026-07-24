@@ -10,7 +10,7 @@ STOCKS = ["AAPL", "TSLA", "GOOGL", "MSFT", "AMZN", "NVDA", "META"]
 OUTPUT_FILE = "prices.csv"
 
 # Only notify when a stock moves at least this much, in percent
-ALERT_THRESHOLD = 3.0
+ALERT_THRESHOLD = 0.1
 
 
 def fetch_price(symbol: str) -> dict | None:
