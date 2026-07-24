@@ -37,7 +37,7 @@ than the message.
 
 ## Automation
 
-![Workflow runs](docs/actions-runs.png)
+![Workflow runs](docs/actions-runs1.png)
 
 The schedule, permissions and commit step live in
 [`.github/workflows/scraper.yml`](.github/workflows/scraper.yml). The job runs
